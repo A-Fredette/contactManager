@@ -36,8 +36,8 @@ class App extends Component {
     return (
       <div className="app">
         <Route exact path="/" render = {() => (
-          <ListContacts 
-          onDeleteContact={this.removeContact} 
+          <ListContacts
+          onDeleteContact={this.removeContact}
           contacts={this.state.contacts}
           />
         )}/>
@@ -49,9 +49,9 @@ class App extends Component {
           }}
           />
           )}/>
-      </div>   
+      </div>
     )
   }
 }
 
-export default App;
+export default App
